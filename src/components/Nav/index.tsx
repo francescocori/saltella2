@@ -25,7 +25,7 @@ export default function Nav() {
 
   return (
     <div
-      className={`navbar fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`navbar z-9999 fixed top-0 left-0 right-0  transition-all duration-300 ${
         isScrolled ? "bg-brand-dark shadow-lg" : "bg-transparent"
       }`}
     >
