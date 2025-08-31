@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* In your main CSS file (e.g., globals.css) */
+
+.navbar-transparent {
+  @apply !bg-transparent;
+}

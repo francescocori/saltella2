@@ -1,0 +1,9 @@
+export { default as Hero } from "./Hero";
+export { default as About } from "./About";
+export { default as Carousel } from "./Carousel";
+export { default as Contact } from "./Contact";
+export { default as Footer } from "./Footer";
+export { default as Faq } from "./Faq";
+export { default as Testimonials } from "./Testimonials";
+export { default as Contact2 } from "./Contact2";
+export { default as Nav } from "./Nav";

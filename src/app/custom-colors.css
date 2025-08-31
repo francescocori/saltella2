@@ -1,0 +1,81 @@
+/* Custom color classes to ensure Tailwind generates them */
+/* 
+  IMPORTANT: When changing colors, update BOTH:
+  1. tailwind.config.js (main source)
+  2. This file (fallback with !important)
+*/
+
+/* Background Colors */
+.bg-brand-dark {
+  background-color: #0c0e0c !important;
+}
+.bg-brand-darker {
+  background-color: #1e1e1e !important;
+}
+.bg-brand-green {
+  background-color: #4a7c59 !important;
+}
+.bg-brand-terracotta {
+  background-color: #b55239 !important;
+}
+.bg-brand-gold {
+  background-color: #e6b566 !important;
+}
+.bg-brand-goldDark {
+  background-color: #c99442 !important;
+}
+
+/* Text Colors */
+.text-brand-dark {
+  color: #111111 !important;
+}
+.text-brand-darker {
+  color: #1e1e1e !important;
+}
+.text-brand-green {
+  color: #4a7c59 !important;
+}
+.text-brand-terracotta {
+  color: #b55239 !important;
+}
+.text-brand-gold {
+  color: #e6b566 !important;
+}
+.text-brand-goldDark {
+  color: #c99442 !important;
+}
+.text-custom-text {
+  color: #f5f5f5 !important;
+}
+.text-custom-textSecondary {
+  color: #cccccc !important;
+}
+
+/* Border Colors */
+.border-brand-dark {
+  border-color: #111111 !important;
+}
+.border-brand-darker {
+  border-color: #1e1e1e !important;
+}
+.border-brand-green {
+  border-color: #4a7c59 !important;
+}
+.border-brand-terracotta {
+  border-color: #b55239 !important;
+}
+.border-brand-gold {
+  border-color: #e6b566 !important;
+}
+.border-brand-goldDark {
+  border-color: #c99442 !important;
+}
+.border-custom-border {
+  border-color: #2a2a2a !important;
+}
+.border-custom-text {
+  border-color: #f5f5f5 !important;
+}
+.border-custom-textSecondary {
+  border-color: #cccccc !important;
+}
