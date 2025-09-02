@@ -1,20 +1,20 @@
 // Reusable Components
 const Tagline = ({ children }) => (
   <div className="mb-4">
-    <span className="text-brand-green font-founders text-sm font-medium tracking-wider uppercase">
+    <span className="text-brand-green font-founders text-md font-medium tracking-wider uppercase">
       {children}
     </span>
   </div>
 );
 
 const SectionHeading = ({ children }) => (
-  <h3 className="font-founders text-2xl md:text-3xl font-medium text-custom-text mb-4">
+  <h3 className="font-founders text-2xl md:text-4xl font-medium text-custom-text mb-4">
     {children}
   </h3>
 );
 
 const Description = ({ children }) => (
-  <p className="font-founders font-light text-base text-custom-textSecondary mb-6 leading-relaxed">
+  <p className="font-founders font-light text-[18px]  text-custom-textSecondary mb-6 leading-relaxed">
     {children}
   </p>
 );
@@ -95,9 +95,9 @@ const aboutData = {
     {
       content: {
         tagline: "Private dining",
-        heading: "Medium length section heading goes here",
+        heading: "Tailored menus for every occasion",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
+          "Whether it’s an intimate dinner or a lively celebration. Each dish is designed around your tastes, blending authentic flavors and refined presentation to create unforgettable memories at your table.",
         primaryButton: "Button",
         secondaryButton: "Button",
       },
@@ -107,10 +107,10 @@ const aboutData = {
     },
     {
       content: {
-        tagline: "Catering",
-        heading: "Medium length section heading goes here",
+        tagline: "Sicilian Gastronomy",
+        heading: "A taste of Sicily at your table",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
+          "Rooted in my Sicilian heritage, I bring the vibrant spirit of Sicilian street food directly to your home. From arancini to panelle, I offer you the genuine taste of Sicily in the warmth of your own space.",
         primaryButton: "Button",
         secondaryButton: "Button",
       },
@@ -120,10 +120,10 @@ const aboutData = {
     },
     {
       content: {
-        tagline: "Delivery",
-        heading: "Medium length section heading goes here",
+        tagline: "Weekly Meal Plans",
+        heading: "Healthy, seasonal meals without the hassle",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
+          "No time to cook? Stress-free, delicious and healthy meals Enjoy the comfort of delicious home-cooked meals designed to fit your week. Our weekly plans combine seasonal ingredients, balance, and flavor, accordingly!",
         primaryButton: "Button",
         secondaryButton: "Button",
       },

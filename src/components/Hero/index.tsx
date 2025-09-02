@@ -38,11 +38,11 @@ export default function Hero() {
           <div className="absolute inset-0 flex items-center justify-center z-50">
             <div className="text-center text-white px-4 max-w-4xl relative z-50">
               <h1 className="font-founders text-5xl md:text-6xl lg:text-7xl font-medium mb-6 drop-shadow-lg">
-                Chef Saltella
+                Chef Gabbo
               </h1>
               <p className="font-founders font-light text-lg md:text-xl lg:text-2xl mb-8 drop-shadow-md opacity-90">
-                Experience the art of fine dining with our chefs Saltella and
-                exquisite cuisine.
+                Private dining, fresh delivery and weekly meal right at your
+                place.
               </p>
               {/* <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <button className="font-founders btn py-2 rounded-lg btn-outline btn-lg bg-white/20 hover:bg-white/30 border-white/40 text-white font-medium px-8">
@@ -69,15 +69,17 @@ export default function Hero() {
           <div className="text-center max-w-2xl mx-auto">
             {/* Heading */}
             <h2 className="font-founders text-3xl md:text-4xl font-medium text-custom-text mb-6">
-              Long heading is what you see here in this feature section
+              From tailored private dining to Sicilian street food and fresh
+              weekly meals
             </h2>
 
             {/* Description */}
             <p className="font-founders font-light text-lg text-custom-textSecondary leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in eros elementum tristique. Duis cursus,
-              mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam
-              libero vitae erat.
+              I create culinary experiences designed around your
+              lifestyle—whether it’s an elegant dinner at home, the vibrant
+              flavors of Sicily delivered to your table, or stress-free weekly
+              meal plans. Every dish blends authenticity, creativity, and care
+              to make dining effortless and memorable.
             </p>
             <button className="font-founders mt-4 btn bg-brand-goldDark border-brand-goldDark font-medium">
               See Menu

@@ -49,8 +49,7 @@ const TESTIMONIALS_DATA = [
   {
     id: 6,
     rating: 5,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.",
-    name: "Name Surname",
+    text: "Tutto buonissimoooo, Saltella ma non mollaaaaaaa",
     position: "Position, Company name",
     avatar:
       "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=face",

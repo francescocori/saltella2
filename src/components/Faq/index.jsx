@@ -4,39 +4,57 @@ import { useEffect, useRef } from "react";
 const FAQ_DATA = [
   {
     id: 1,
-    question: "How do I create an account?",
+    question: "What types of events do you cater for?",
     answer:
-      'Click the "Sign Up" button in the top right corner and follow the registration process.',
+      "We design menus for private dinners, birthdays, and family gatherings.",
   },
   {
     id: 2,
-    question: "I forgot my password. What should I do?",
+    question: "How does the private chef service work?",
     answer:
-      'Click on "Forgot Password" on the login page and follow the instructions sent to your email.',
+      "We plan the menu with you, we bring the ingredients, cook at your home or chosen location, and provide a seamless dining experience for you and your guests.",
   },
   {
     id: 3,
-    question: "How do I update my profile information?",
+    question: " What is included in the service?",
     answer:
-      'Go to "My Account" settings and select "Edit Profile" to make changes.',
+      "For private events, Each service includes menu planning, shopping for high-quality ingredients, cooking, plating, and cleaning up the kitchen afterward.",
   },
   {
     id: 4,
-    question: "How do I update my profile information?",
+    question: "How does pricing work for your services?",
     answer:
-      'Go to "My Account" settings and select "Edit Profile" to make changes.',
+      "Pricing depends on the number of guests, menu complexity, and any additional services required. After an initial consultation, I provide a tailored quote.",
   },
   {
     id: 5,
-    question: "How do I update my profile information?",
+    question: "How far in advance should I book a private dining experience?",
     answer:
-      'Go to "My Account" settings and select "Edit Profile" to make changes.',
+      "We recommend booking at least 1 week in advance to ensure availability, especially for weekends and special occasions",
   },
   {
     id: 6,
-    question: "How do I update my profile information?",
+    question: "How do the weekly meal plans work?",
     answer:
-      'Go to "My Account" settings and select "Edit Profile" to make changes.',
+      "You’ll receive a personalized menu each week, designed according to your tastes and dietary needs. Meals are delivered ready to enjoy or easy to reheat.",
+  },
+  {
+    id: 7,
+    question: "How are the meals delivered?",
+    answer:
+      "Meals are delivered in containers ready to refrigerate, freeze, or heat up at your convenience.",
+  },
+  {
+    id: 8,
+    question: "What types of Sicilian dishes do you offer?",
+    answer:
+      "I specialize in authentic Sicilian street food such as arancini, panelle, calzoni, and other traditional flavors prepared fresh for your event.",
+  },
+  {
+    id: 9,
+    question: "Is there a minimum order for Sicilian street food delivery?",
+    answer:
+      "Yes, minimum order requirements may apply depending on the menu and number of guests. We’ll define the details together during planning.",
   },
 ];
 
