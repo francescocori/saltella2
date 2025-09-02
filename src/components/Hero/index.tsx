@@ -75,11 +75,11 @@ export default function Hero() {
 
             {/* Description */}
             <p className="font-founders font-light text-lg text-custom-textSecondary leading-relaxed">
-              I create culinary experiences designed around your
-              lifestyle—whether it’s an elegant dinner at home, the vibrant
-              flavors of Sicily delivered to your table, or stress-free weekly
-              meal plans. Every dish blends authenticity, creativity, and care
-              to make dining effortless and memorable.
+              I create culinary experiences designed around your lifestyle,
+              whether it’s an elegant dinner at home, the vibrant flavors of
+              Sicily delivered to your table, or stress-free weekly meal plans.
+              Every dish blends authenticity, creativity, and care to make
+              dining effortless and memorable.
             </p>
             <button className="font-founders mt-4 btn bg-brand-goldDark border-brand-goldDark font-medium">
               See Menu
