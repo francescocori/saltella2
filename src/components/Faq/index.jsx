@@ -96,7 +96,7 @@ export default function Faq() {
       id="faq"
       className="container mx-auto px-4 py-12 max-w-6xl bg-brand-dark"
     >
-      <h2 className="font-founders text-2xl font-medium text-center mb-8 text-brand-goldDark">
+      <h2 className="font-founders text-2xl font-medium text-center mt-4 mb-8 text-brand-goldDark">
         Frequently Asked Questions
       </h2>
       <div ref={accordionRef}>

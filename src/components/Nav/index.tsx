@@ -26,7 +26,7 @@ export default function Nav() {
 
   return (
     <div
-      className={`navbar z-9999 fixed top-0 left-0 right-0  transition-all duration-300 ${
+      className={`navbar z-9999 fixed top-0 left-0 right-0 max-h-[1.5rem]  transition-all duration-300 ${
         isScrolled ? "bg-brand-dark shadow-lg" : "bg-transparent"
       }`}
     >
@@ -57,13 +57,13 @@ export default function Nav() {
             className="menu menu-sm dropdown-content bg-brand-dark/90 rounded-box z-1 mt-3 w-52 p-2 shadow font-founders"
           >
             <li>
-              <a href="#menu" className="text-brand-goldDark">
-                Gallery
+              <a href="#about" className="text-brand-goldDark">
+                About
               </a>
             </li>
             <li>
-              <a href="#about" className="text-brand-goldDark">
-                About
+              <a href="#menu" className="text-brand-goldDark">
+                Gallery
               </a>
             </li>
             <li>
@@ -77,14 +77,12 @@ export default function Nav() {
           href="#hero"
           className="text-xl font-founders font-medium text-white hover:text-brand-goldDark cursor-pointer"
         >
-          {/* <span className="italianno-xs mr-1">Chef </span>
-          Gabbo */}
           <Image
-            src="/Videos/Images/sicilyGold.png" // path inside /public/images
+            src="/Videos/Images/sicilyGold.png"
             alt="Description"
-            width={70}
-            height={70}
-            className="fill-current text-brand-dark "
+            width={60}
+            height={60}
+            className="fill-current text-brand-dark hidden lg:block"
           />
         </a>
       </div>
@@ -92,18 +90,18 @@ export default function Nav() {
         <ul className="menu menu-horizontal px-1 text-white font-founders">
           <li>
             <a
-              href="#menu"
-              className="text-brand-goldDark hover:text-brand-goldDark"
-            >
-              Gallery
-            </a>
-          </li>
-          <li>
-            <a
               href="#about"
               className="text-brand-goldDark hover:text-brand-goldDark"
             >
               About
+            </a>
+          </li>
+          <li>
+            <a
+              href="#menu"
+              className="text-brand-goldDark hover:text-brand-goldDark"
+            >
+              Gallery
             </a>
           </li>
           <li>
