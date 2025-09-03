@@ -20,7 +20,7 @@ const Description = ({ children }) => (
 );
 
 const ImageComponent = ({ imageSrc, altText }) => (
-  <div className="bg-brand-darker min-h-[300px] lg:min-h-[400px] overflow-hidden">
+  <div className="bg-brand-darker min-h-[300px] lg:min-h-[400px] overflow-hidden rounded-xl">
     <img src={imageSrc} alt={altText} className="w-full h-full object-cover" />
   </div>
 );
@@ -29,6 +29,7 @@ const ContentBlock = ({
   tagline,
   heading,
   description,
+  description2,
   primaryButton,
   secondaryButton,
 }) => (
@@ -36,6 +37,7 @@ const ContentBlock = ({
     <Tagline>{tagline}</Tagline>
     <SectionHeading>{heading}</SectionHeading>
     <Description>{description}</Description>
+    {description2 && <Description>{description2}</Description>}
   </div>
 );
 
@@ -53,7 +55,7 @@ const Section = ({
 
   return (
     <div className={`${isLast ? "" : "mb-12"}`}>
-      <div className="card bg-brand-dark shadow-sm font-founders">
+      <div className="card bg-brand-dark shadow-sm font-founders ">
         <div className="grid grid-cols-1 lg:grid-cols-2">
           {imageLeft ? (
             <>
@@ -72,18 +74,6 @@ const Section = ({
   );
 };
 
-// const HeaderSection = ({ tagline, title, description }) => (
-//   <div className="text-center mb-16">
-//     <Tagline>{tagline}</Tagline>
-//     <h2 className="font-founders text-3xl md:text-4xl font-medium text-base-content mb-6">
-//       {title}
-//     </h2>
-//     <p className="font-founders font-light text-lg text-base-content/70 max-w-2xl mx-auto">
-//       {description}
-//     </p>
-//   </div>
-// );
-
 // Data Configuration
 const aboutData = {
   header: {
@@ -101,7 +91,7 @@ const aboutData = {
         primaryButton: "Button",
         secondaryButton: "Button",
       },
-      imageSrc: "/Videos/Images/privateDining.jpg",
+      imageSrc: "/Videos/Images/private.jpg",
       altText: "Private dining experience",
       imageLeft: false,
     },
@@ -111,10 +101,12 @@ const aboutData = {
         heading: "A taste of Sicily at your table",
         description:
           "Rooted in my Sicilian heritage, I bring the vibrant spirit of Sicilian street food directly to your home. From arancini to panelle, I offer you the genuine taste of Sicily in the warmth of your own space.",
+        description2:
+          "Qui mi piace questa immagine più grande, cosa ne pensate? Rompe un pò il flow, ma ovviamente dobbiamo scriverci qualcosa in più per riempire questo spazioo, tipo mmmmh saltellaaaaaaaa ma non mollaaaaaaaaaaaa.",
         primaryButton: "Button",
         secondaryButton: "Button",
       },
-      imageSrc: "/Videos/Images/catering.jpg",
+      imageSrc: "/Videos/Images/arancini2.jpg",
       altText: "Catering services",
       imageLeft: true,
     },
@@ -127,7 +119,7 @@ const aboutData = {
         primaryButton: "Button",
         secondaryButton: "Button",
       },
-      imageSrc: "/Videos/Images/delivery.jpg",
+      imageSrc: "/Videos/Images/delivery2.jpg",
       altText: "Food delivery service",
       imageLeft: false,
     },

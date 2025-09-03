@@ -81,8 +81,8 @@ export default function Hero() {
               Every dish blends authenticity, creativity, and care to make
               dining effortless and memorable.
             </p>
-            <button className="font-founders mt-4 btn bg-brand-goldDark border-brand-goldDark font-medium">
-              See Menu
+            <button className="font-founders mt-4 btn bg-brand-goldDark border-brand-goldDark font-medium shadow-none">
+              Ask current menù
             </button>
           </div>
         </div>

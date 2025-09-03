@@ -103,7 +103,7 @@ export default function Nav() {
           href="#contact"
           className="font-founders mt-4 btn bg-brand-goldDark border-brand-goldDark font-medium shadow-none"
         >
-          Book me!
+          Book me
         </a>
       </div>
     </div>

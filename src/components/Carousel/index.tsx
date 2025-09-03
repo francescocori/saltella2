@@ -1,12 +1,16 @@
 export default function Carousel() {
   const images = [
-    "https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp",
-    "https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp",
-    "https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.webp",
-    "https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.webp",
-    "https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.webp",
-    "https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.webp",
-    "https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp",
+    "Videos/Images/arancini3.jpg",
+    "Videos/Images/small3.png",
+    "Videos/Images/small4.png",
+    "Videos/Images/small1.png",
+    "Videos/Images/small2.png",
+  ];
+  const images2 = [
+    "Videos/Images/small5.jpg",
+    "Videos/Images/small6.jpg",
+    "Videos/Images/small7.jpg",
+    "Videos/Images/arancini.jpg",
   ];
 
   return (
@@ -42,7 +46,7 @@ export default function Carousel() {
           <div className="flex space-x-4 animate-loop-reverse hover:pause-marquee">
             {/* Multiple sets for perfect seamless loop */}
             {Array.from({ length: 3 }, (_, setIndex) =>
-              images.map((src, index) => (
+              images2.map((src, index) => (
                 <div
                   key={`ltr-set-${setIndex}-${index}`}
                   className="carousel-item flex-shrink-0"
