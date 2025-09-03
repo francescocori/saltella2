@@ -36,7 +36,7 @@ export default function Carousel() {
         </h2>
 
         {/* First Marquee Container - Right to Left */}
-        <div className="relative  rounded-box p-4 bg-brand-dark">
+        <div className="relative overflow-hidden  rounded-box p-4 bg-brand-dark">
           <div className="flex space-x-4 animate-loop hover:pause-marquee">
             {/* Multiple sets for perfect seamless loop */}
             {Array.from({ length: 2 }, (_, setIndex) =>
@@ -57,7 +57,7 @@ export default function Carousel() {
         </div>
 
         {/* Second Marquee Container - Left to Right */}
-        <div className="relative  rounded-box bg-brand-darker">
+        <div className="relative overflow-hidden  rounded-box bg-brand-darker">
           <div className="flex space-x-4 animate-loop-reverse hover:pause-marquee">
             {/* Multiple sets for perfect seamless loop */}
             {Array.from({ length: 2 }, (_, setIndex) =>
