@@ -42,8 +42,9 @@ const foundersGrotesk = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "DaisyUI Landing Page",
-  description: "A beautiful landing page built with Next.js and DaisyUI",
+  title: "Chef Gabbo website",
+  description:
+    "Private dining, fresh delivery and weekly meal right at your place.",
 };
 
 export default function RootLayout({
@@ -53,6 +54,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" data-theme="light">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin=""
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Italianno&display=swap"
+          rel="stylesheet"
+        />
+      </head>
+
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${foundersGrotesk.variable} antialiased`}
       >

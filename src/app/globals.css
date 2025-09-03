@@ -14,3 +14,10 @@ body {
 .navbar-transparent {
   @apply !bg-transparent;
 }
+
+.italianno-regular {
+  font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10rem;
+}
