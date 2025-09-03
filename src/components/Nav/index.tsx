@@ -76,7 +76,8 @@ export default function Nav() {
           href="#hero"
           className="text-xl font-founders font-medium text-white hover:text-brand-goldDark cursor-pointer"
         >
-          Chef Gabbo
+          <span className="italianno-xs mr-1">Chef </span>
+          Gabbo
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">
