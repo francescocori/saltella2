@@ -30,7 +30,7 @@ const FAQ_DATA = [
     id: 5,
     question: "How far in advance should I book a private dining experience?",
     answer:
-      "We recommend booking at least 1 week in advance to ensure availability, especially for weekends and special occasions",
+      "We recommend booking at least 1 week in advance to ensure availability, especially for weekends and special occasions.",
   },
   {
     id: 6,
