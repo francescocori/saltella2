@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 
 import { useState, useEffect } from "react";
 
@@ -39,7 +40,7 @@ export default function Nav() {
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
-              fill="none"
+              fill="#c99442"
               viewBox="0 0 24 24"
               stroke="currentColor"
             >
@@ -56,17 +57,17 @@ export default function Nav() {
             className="menu menu-sm dropdown-content bg-brand-dark/90 rounded-box z-1 mt-3 w-52 p-2 shadow font-founders"
           >
             <li>
-              <a href="#menu" className="text-white hover:text-brand-goldDark">
+              <a href="#menu" className="text-brand-goldDark">
                 Menu
               </a>
             </li>
             <li>
-              <a href="#about" className="text-white hover:text-brand-goldDark">
+              <a href="#about" className="text-brand-goldDark">
                 About
               </a>
             </li>
             <li>
-              <a href="#faq" className="text-white hover:text-brand-goldDark">
+              <a href="#faq" className="text-brand-goldDark">
                 FAQ
               </a>
             </li>
@@ -76,24 +77,40 @@ export default function Nav() {
           href="#hero"
           className="text-xl font-founders font-medium text-white hover:text-brand-goldDark cursor-pointer"
         >
-          <span className="italianno-xs mr-1">Chef </span>
-          Gabbo
+          {/* <span className="italianno-xs mr-1">Chef </span>
+          Gabbo */}
+          <Image
+            src="/Videos/Images/sicilyGold.png" // path inside /public/images
+            alt="Description"
+            width={70}
+            height={70}
+            className="fill-current text-brand-dark "
+          />
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 text-white font-founders">
           <li>
-            <a href="#menu" className="text-white hover:text-brand-goldDark">
+            <a
+              href="#menu"
+              className="text-brand-goldDark hover:text-brand-goldDark"
+            >
               Menu
             </a>
           </li>
           <li>
-            <a href="#about" className="text-white hover:text-brand-goldDark">
+            <a
+              href="#about"
+              className="text-brand-goldDark hover:text-brand-goldDark"
+            >
               About
             </a>
           </li>
           <li>
-            <a href="#faq" className="text-white hover:text-brand-goldDark">
+            <a
+              href="#faq"
+              className="text-brand-goldDark hover:text-brand-goldDark"
+            >
               FAQ
             </a>
           </li>
