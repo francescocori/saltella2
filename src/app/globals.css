@@ -21,3 +21,10 @@ body {
   font-style: normal;
   font-size: 10rem;
 }
+
+.italianno-small {
+  font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+}

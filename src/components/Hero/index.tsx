@@ -70,8 +70,9 @@ export default function Hero() {
           <div className="text-center max-w-2xl mx-auto">
             {/* Heading */}
             <h2 className="font-founders text-3xl md:text-4xl font-medium text-custom-text mb-6">
-              From tailored private dining to Sicilian street food and fresh
-              weekly meals
+              From tailored private dining to
+              <span className="italianno-small mr-[30px]"> Sicilian </span>
+              street food and fresh weekly meals
             </h2>
 
             {/* Description */}
