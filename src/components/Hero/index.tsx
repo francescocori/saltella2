@@ -37,10 +37,8 @@ export default function Hero() {
           {/* Hero Text Content */}
           <div className="absolute inset-0 flex items-center justify-center z-50">
             <div className="text-center text-white px-4 max-w-4xl relative z-50">
-              <h1 className=" text-7xl md:text-6xl lg:text-7xl font-medium mb-6 drop-shadow-lg">
-                <span className="italianno-regular">
-                  Chef <br />{" "}
-                </span>
+              <h1 className=" text-7xl md:text-8xl lg:text-8xl font-medium mb-6 drop-shadow-lg flex flex-col md:flex-row justify-center items-center md:items-baseline">
+                <span className="italianno-regular mr-[30px]">Chef </span>
                 Gabbo
               </h1>
               <p className="font-founders font-light text-lg md:text-xl lg:text-2xl mb-8 drop-shadow-md opacity-90">
