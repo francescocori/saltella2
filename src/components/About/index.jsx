@@ -33,7 +33,11 @@ const ContentBlock = ({
   primaryButton,
   secondaryButton,
 }) => (
-  <div className="p-8 lg:p-12">
+  <div
+    className={`pl-0 py-8 pr-8 lg:pl-0 lg:py-12 lg:pr-12 ${
+      description2 ? "pl-8 lg:pl-12" : ""
+    } `}
+  >
     <Tagline>{tagline}</Tagline>
     <SectionHeading>{heading}</SectionHeading>
     <Description>{description}</Description>
