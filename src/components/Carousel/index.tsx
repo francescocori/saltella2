@@ -1,16 +1,31 @@
 export default function Carousel() {
   const images = [
-    "Videos/Images/arancini3.jpg",
     "Videos/Images/small3.png",
+    "Videos/Images/small8.jpg",
+    "Videos/Images/arancini3.jpg",
     "Videos/Images/small4.png",
-    "Videos/Images/small1.png",
     "Videos/Images/small2.png",
-  ];
-  const images2 = [
+    "Videos/Images/small9.jpg",
+    // "Videos/Images/small1.png",
+    "Videos/Images/small10.jpg",
     "Videos/Images/small5.jpg",
     "Videos/Images/small6.jpg",
     "Videos/Images/small7.jpg",
     "Videos/Images/arancini.jpg",
+  ];
+  const images2 = [
+    "Videos/Images/small9.jpg",
+    "Videos/Images/small5.jpg",
+    "Videos/Images/small6.jpg",
+    "Videos/Images/small7.jpg",
+    "Videos/Images/small10.jpg",
+    "Videos/Images/arancini.jpg",
+    "Videos/Images/small3.png",
+    "Videos/Images/small8.jpg",
+    "Videos/Images/arancini3.jpg",
+    "Videos/Images/small4.png",
+    // "Videos/Images/small1.png",
+    "Videos/Images/small2.png",
   ];
 
   return (
@@ -21,10 +36,10 @@ export default function Carousel() {
         </h2>
 
         {/* First Marquee Container - Right to Left */}
-        <div className="relative overflow-hidden rounded-box p-4 bg-brand-dark">
+        <div className="relative  rounded-box p-4 bg-brand-dark">
           <div className="flex space-x-4 animate-loop hover:pause-marquee">
             {/* Multiple sets for perfect seamless loop */}
-            {Array.from({ length: 3 }, (_, setIndex) =>
+            {Array.from({ length: 2 }, (_, setIndex) =>
               images.map((src, index) => (
                 <div
                   key={`rtl-set-${setIndex}-${index}`}
@@ -32,7 +47,7 @@ export default function Carousel() {
                 >
                   <img
                     src={src}
-                    alt={`Pizza ${index + 1}`}
+                    alt={`dish ${index + 1}`}
                     className="w-80 h-60 object-cover rounded-lg"
                   />
                 </div>
@@ -42,10 +57,10 @@ export default function Carousel() {
         </div>
 
         {/* Second Marquee Container - Left to Right */}
-        <div className="relative overflow-hidden rounded-box bg-brand-darker">
+        <div className="relative  rounded-box bg-brand-darker">
           <div className="flex space-x-4 animate-loop-reverse hover:pause-marquee">
             {/* Multiple sets for perfect seamless loop */}
-            {Array.from({ length: 3 }, (_, setIndex) =>
+            {Array.from({ length: 2 }, (_, setIndex) =>
               images2.map((src, index) => (
                 <div
                   key={`ltr-set-${setIndex}-${index}`}
@@ -53,7 +68,7 @@ export default function Carousel() {
                 >
                   <img
                     src={src}
-                    alt={`Pizza ${index + 1}`}
+                    alt={`dish ${index + 1}`}
                     className="w-80 h-60 object-cover rounded-lg"
                   />
                 </div>
@@ -69,13 +84,13 @@ export default function Carousel() {
               transform: translateX(0);
             }
             to {
-              transform: translateX(calc(-100% / 3));
+              transform: translateX(calc(-100%));
             }
           }
 
           @keyframes infinite-loop-reverse {
             from {
-              transform: translateX(calc(-100% / 3));
+              transform: translateX(calc(-100%));
             }
             to {
               transform: translateX(0);
