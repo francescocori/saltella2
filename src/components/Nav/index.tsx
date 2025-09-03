@@ -58,7 +58,7 @@ export default function Nav() {
           >
             <li>
               <a href="#menu" className="text-brand-goldDark">
-                Menu
+                Gallery
               </a>
             </li>
             <li>
@@ -95,7 +95,7 @@ export default function Nav() {
               href="#menu"
               className="text-brand-goldDark hover:text-brand-goldDark"
             >
-              Menu
+              Gallery
             </a>
           </li>
           <li>

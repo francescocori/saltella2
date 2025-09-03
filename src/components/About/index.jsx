@@ -104,9 +104,11 @@ const aboutData = {
         tagline: "Sicilian Gastronomy",
         heading: "A taste of Sicily at your table",
         description:
-          "Rooted in my Sicilian heritage, I bring the vibrant spirit of Sicilian street food directly to your home. From arancini to panelle, I offer you the genuine taste of Sicily in the warmth of your own space.",
+          "Rooted in my Sicilian heritage, I bring the vibrant spirit of Sicily’s street food directly to your home.",
         description2:
-          "Qui mi piace questa immagine più grande, cosa ne pensate? Rompe un pò il flow, ma ovviamente dobbiamo scriverci qualcosa in più per riempire questo spazioo, tipo mmmmh saltellaaaaaaaa ma non mollaaaaaaaaaaaa.",
+          "From golden arancini to crispy panelle, each dish is crafted with tradition and passion, offering you the genuine taste of Sicily in the comfort of your own space.",
+        description3:
+          "From golden arancini to crispy panelle, each dish is crafted with tradition and passion, offering you the genuine taste of Sicily in the comfort of your own space.",
         primaryButton: "Button",
         secondaryButton: "Button",
       },
@@ -117,9 +119,9 @@ const aboutData = {
     {
       content: {
         tagline: "Weekly Meal Plans",
-        heading: "Healthy, seasonal meals without the hassle",
+        heading: "Fresh meals ready to eat",
         description:
-          "No time to cook? Stress-free, delicious and healthy meals Enjoy the comfort of delicious home-cooked meals designed to fit your week. Our weekly plans combine seasonal ingredients, balance, and flavor, accordingly!",
+          "No time to cook? Stress-free, delicious and healthy meals. Enjoy the comfort of delicious home-cooked meals designed to fit your week. Our weekly plans combine seasonal ingredients, balance, and flavor, accordingly.",
         primaryButton: "Button",
         secondaryButton: "Button",
       },

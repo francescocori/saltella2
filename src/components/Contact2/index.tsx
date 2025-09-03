@@ -10,8 +10,9 @@ export default function Contact2() {
                 Contact us
               </h2>
               <p className="font-founders font-light text-base-content/70 mb-8 text-custom-textSecondary">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-                eiusmod tempor incididunt ut labore. sss
+                We recommend booking at least 48 hours in adavance for Sicilian
+                gastronomy, one week in advance for private dining to ensure
+                availability.
               </p>
             </div>
 
@@ -34,7 +35,7 @@ export default function Contact2() {
                   </svg>
                 </div>
                 <span className="font-founders font-light text-custom-text">
-                  +1 (555) 000-0000
+                  +351 920 416 301
                 </span>
               </div>
 
@@ -62,7 +63,7 @@ export default function Contact2() {
                   </svg>
                 </div>
                 <span className="text-custom-textSecondary font-founders font-light">
-                  123 Street St, Sydney NSW 2000 AU
+                  Lisbon
                 </span>
               </div>
             </div>
