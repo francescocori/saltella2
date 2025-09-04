@@ -20,7 +20,7 @@ const Description = ({ children }) => (
 );
 
 const ImageComponent = ({ imageSrc, altText }) => (
-  <div className="bg-brand-darker min-h-[300px] lg:min-h-[400px] overflow-hidden rounded-xl">
+  <div className=" min-h-[300px] lg:min-h-[400px] overflow-hidden rounded-xl">
     <img src={imageSrc} alt={altText} className="w-full h-full object-cover" />
   </div>
 );
@@ -118,7 +118,7 @@ const aboutData = {
         primaryButton: "Button",
         secondaryButton: "Button",
       },
-      imageSrc: "/Videos/Images/delivery2.jpg",
+      imageSrc: "/Videos/Images/delivery3.png",
       altText: "Food delivery service",
       imageLeft: false,
     },

@@ -3,7 +3,7 @@ export default function Footer() {
   return (
     <footer className="footer bg-brand-goldDark  footer-horizontal footer-center  text-black p-10 relative">
       <aside>
-        <div className="absolute left-4 bottom-0 hidden lg:block">
+        {/* <div className="absolute left-4 bottom-0 hidden lg:block">
           <Image
             src="/Videos/Images/sicily.png"
             alt="Description"
@@ -11,7 +11,7 @@ export default function Footer() {
             height={200}
             className="fill-current text-brand-dark "
           />
-        </div>
+        </div> */}
         <div className="grid grid-flow-col gap-4">
           <a
             href="https://www.instagram.com/chef_gabbo_privatechef?igsh=YmhseTlwdHA4bHl4"
