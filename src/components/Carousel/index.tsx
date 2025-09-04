@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Carousel() {
   const images = [
     "Videos/Images/small12.jpg",
@@ -45,9 +47,14 @@ export default function Carousel() {
                   key={`rtl-set-${setIndex}-${index}`}
                   className="carousel-item flex-shrink-0"
                 >
-                  <img
-                    src={src}
+                  <Image
+                    src={src.startsWith("/") ? src : `/${src}`}
                     alt={`dish ${index + 1}`}
+                    width={320}
+                    height={240}
+                    sizes="(max-width: 640px) 75vw, 320px"
+                    loading={setIndex === 0 && index < 2 ? "eager" : "lazy"}
+                    quality={70}
                     className="w-80 h-60 object-cover rounded-lg"
                   />
                 </div>
@@ -66,9 +73,14 @@ export default function Carousel() {
                   key={`ltr-set-${setIndex}-${index}`}
                   className="carousel-item flex-shrink-0"
                 >
-                  <img
-                    src={src}
+                  <Image
+                    src={src.startsWith("/") ? src : `/${src}`}
                     alt={`dish ${index + 1}`}
+                    width={320}
+                    height={240}
+                    sizes="(max-width: 640px) 75vw, 320px"
+                    loading={setIndex === 0 && index < 2 ? "eager" : "lazy"}
+                    quality={70}
                     className="w-80 h-60 object-cover rounded-lg"
                   />
                 </div>

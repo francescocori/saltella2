@@ -59,8 +59,26 @@ export default function RootLayout({
         <link
           rel="preload"
           as="image"
-          href="/Videos/Images/hero.webp"
-          type="image/webp"
+          href="/Videos/Images/hero.jpg"
+          type="image/jpep"
+        />
+        <link
+          rel="preload"
+          as="image"
+          href="/Videos/Images/private.jpg"
+          type="image/jpep"
+        />
+        <link
+          rel="preload"
+          as="image"
+          href="/Videos/Images/arancini2.jpg"
+          type="image/jpep"
+        />
+        <link
+          rel="preload"
+          as="image"
+          href="/Videos/Images/delivery2.jpg"
+          type="image/jpep"
         />
         <link
           rel="preconnect"
