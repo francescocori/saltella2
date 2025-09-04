@@ -5,7 +5,7 @@ export default function Footer() {
       <aside>
         <div className="absolute left-4 bottom-0">
           <Image
-            src="/Videos/Images/sicily.png" // path inside /public/images
+            src="/Videos/Images/sicily.png"
             alt="Description"
             width={200}
             height={200}
@@ -19,7 +19,7 @@ export default function Footer() {
             rel="noopener noreferrer"
           >
             <Image
-              src="/Videos/Images/instagram.png" // path inside /public/images
+              src="/Videos/Images/instagram.png"
               alt="Description"
               width={30}
               height={30}

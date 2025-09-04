@@ -98,16 +98,10 @@ const TestimonialCard = ({
           </div>
         </div>
         <div>
-          <div
-            className="font-founders font-medium  text-sm text-white"
-            //style={{ color: "#CCCCCC" }}
-          >
+          <div className="font-founders font-medium  text-sm text-white">
             {testimonial.name}
           </div>
-          <div
-            className="font-founders font-light text-xs text-custom-textSecondary"
-            //style={{ color: "#CCCCCC" }}
-          >
+          <div className="font-founders font-light text-xs text-custom-textSecondary">
             {testimonial.position}
           </div>
         </div>
@@ -123,9 +117,6 @@ export default function Testimonials() {
         <h2 className="font-founders text-3xl font-medium text-brand-goldDark mb-4">
           Customer testimonials
         </h2>
-        {/* <p className="font-founders font-light text-base-content/70 max-w-2xl mx-auto">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        </p> */}
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

@@ -69,7 +69,7 @@ export default function Contact2() {
                   <input
                     type="text"
                     placeholder="Your name"
-                    className="input input-bordered w-full focus:input-primary border-custom-border bg-brand-dark text-custom-textSecondary"
+                    className="input input-bordered w-full border-custom-border bg-brand-dark text-custom-textSecondary focus:outline-none focus:border-brand-goldDark focus:ring-1 focus:ring-brand-goldDark"
                   />
                 </div>
 
@@ -82,7 +82,7 @@ export default function Contact2() {
                   <input
                     type="email"
                     placeholder="your.email@example.com"
-                    className="input input-bordered w-full focus:input-primary border-custom-border bg-brand-dark text-custom-textSecondary"
+                    className="input input-bordered w-full border-custom-border bg-brand-dark text-custom-textSecondary focus:outline-none focus:border-brand-goldDark focus:ring-1 focus:ring-brand-goldDark"
                   />
                 </div>
 
@@ -93,7 +93,7 @@ export default function Contact2() {
                     </span>
                   </label>
                   <textarea
-                    className="textarea textarea-bordered h-32 focus:textarea-primary w-full border-custom-border bg-brand-dark text-custom-textSecondary"
+                    className="textarea textarea-bordered h-32 w-full border-custom-border bg-brand-dark text-custom-textSecondary focus:outline-none focus:border-brand-goldDark focus:ring-1 focus:ring-brand-goldDark"
                     placeholder="Your message here..."
                   ></textarea>
                 </div>

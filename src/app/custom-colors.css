@@ -79,3 +79,13 @@
 .border-custom-textSecondary {
   border-color: #cccccc !important;
 }
+
+/* Force brand focus styles for inputs and textareas (override DaisyUI) */
+.input:focus,
+.input:focus-within,
+.textarea:focus,
+.textarea:focus-within {
+  outline: none !important;
+  border-color: #c99442 !important; /* brand-goldDark */
+  box-shadow: 0 0 0 2px rgba(201, 148, 66, 0.35) !important;
+}
