@@ -71,7 +71,7 @@ export default function RootLayout({
         <link
           rel="preload"
           as="image"
-          href="/Videos/Images/arancini2.jpg"
+          href="/Videos/Images/arancini6.jpg"
           type="image/jpep"
         />
         <link
