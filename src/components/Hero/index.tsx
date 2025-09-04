@@ -83,7 +83,7 @@ export default function Hero() {
             <button
               onClick={() =>
                 window.open(
-                  "https://wa.me/351912345678?text=Hi%20Francesco,%20can%20you%20send%20me%20the%20current%20menu?",
+                  "https://wa.me/393516959843?text=Hi%20Francesco,%20can%20you%20send%20me%20the%20current%20menu?",
                   "_blank"
                 )
               }
