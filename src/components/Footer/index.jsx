@@ -3,7 +3,7 @@ export default function Footer() {
   return (
     <footer className="footer bg-brand-goldDark  footer-horizontal footer-center  text-black p-10 relative">
       <aside>
-        <div className="absolute left-4 bottom-0">
+        <div className="absolute left-4 bottom-0 hidden lg:block">
           <Image
             src="/Videos/Images/sicily.png"
             alt="Description"
