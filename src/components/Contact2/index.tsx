@@ -17,7 +17,12 @@ export default function Contact2() {
             </div>
 
             <div className="space-y-4">
-              <div className="flex items-center gap-3">
+              <a
+                href="https://wa.me/351920416301?text=Hi%20I%27d%20like%20to%20see%20the%20current%20menu."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 hover:opacity-90"
+              >
                 <div className="w-10 h-10 bg-brand-darker rounded-full flex items-center justify-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +42,7 @@ export default function Contact2() {
                 <span className="font-founders font-light text-custom-text">
                   +351 920 416 301
                 </span>
-              </div>
+              </a>
 
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-brand-darker rounded-full flex items-center justify-center">
