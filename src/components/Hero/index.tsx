@@ -91,6 +91,14 @@ export default function Hero() {
             >
               Ask current menù
             </button>
+            <a
+              href="https://wa.me/351912345678?text=Hi%20Francesco,%20can%20you%20send%20me%20the%20current%20menu?"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-founders mt-4 btn bg-brand-goldDark border-brand-goldDark font-medium shadow-none"
+            >
+              Ask current menù
+            </a>
           </div>
         </div>
       </div>
