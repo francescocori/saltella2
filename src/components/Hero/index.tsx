@@ -7,27 +7,10 @@ export default function Hero() {
         <div
           className="relative w-full h-full overflow-hidden bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage:
-              'url("/Videos/Images/sora-image-2025-08-28T12-37-17-723Z.webp")',
+            backgroundImage: 'url("/Videos/Images/hero.jpg")',
             // 'url("/Videos/Images/heroImageBg2.webp")',
           }}
         >
-          {/* Background Video (Commented Out) */}
-          {/* <video
-            className="w-full h-full object-cover"
-            autoPlay
-            muted
-            loop
-            playsInline
-            poster="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='450'%3E%3Crect width='100%25' height='100%25' fill='%23666'/%3E%3C/svg%3E"
-          >
-            <source
-              src="/Videos/3338747-uhd_4096_2160_25fps.mp4"
-              type="video/mp4"
-            />
-            Your browser does not support the video tag.
-          </video> */}
-
           {/* Black Gradient Overlay */}
           <div className="absolute z-10 inset-0 bg-gradient-to-b from-black/30 via-black/40 to-black/50"></div>
 
@@ -45,11 +28,6 @@ export default function Hero() {
                 Private dining, fresh delivery and weekly meal right at your
                 place.
               </p>
-              {/* <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <button className="font-founders btn py-2 rounded-lg btn-outline btn-lg bg-white/20 hover:bg-white/30 border-white/40 text-white font-medium px-8">
-                  View Menu
-                </button>
-              </div> */}
             </div>
           </div>
           {/* Scroll Down Indicator */}

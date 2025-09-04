@@ -1,12 +1,12 @@
 export default function Carousel() {
   const images = [
-    "Videos/Images/small3.png",
+    "Videos/Images/small12.jpg",
+    "Videos/Images/small11.jpg",
     "Videos/Images/small8.jpg",
     "Videos/Images/arancini3.jpg",
     "Videos/Images/small4.png",
     "Videos/Images/small2.png",
     "Videos/Images/small9.jpg",
-    // "Videos/Images/small1.png",
     "Videos/Images/small10.jpg",
     "Videos/Images/small5.jpg",
     "Videos/Images/small6.jpg",
@@ -14,17 +14,17 @@ export default function Carousel() {
     "Videos/Images/arancini.jpg",
   ];
   const images2 = [
+    "Videos/Images/small13.jpg",
+    "Videos/Images/small14.jpg",
     "Videos/Images/small9.jpg",
     "Videos/Images/small5.jpg",
     "Videos/Images/small6.jpg",
     "Videos/Images/small7.jpg",
     "Videos/Images/small10.jpg",
     "Videos/Images/arancini.jpg",
-    "Videos/Images/small3.png",
     "Videos/Images/small8.jpg",
     "Videos/Images/arancini3.jpg",
     "Videos/Images/small4.png",
-    // "Videos/Images/small1.png",
     "Videos/Images/small2.png",
   ];
 
@@ -84,13 +84,13 @@ export default function Carousel() {
               transform: translateX(0);
             }
             to {
-              transform: translateX(calc(-100%));
+              transform: translateX(calc(-50%));
             }
           }
 
           @keyframes infinite-loop-reverse {
             from {
-              transform: translateX(calc(-100%));
+              transform: translateX(calc(-50%));
             }
             to {
               transform: translateX(0);
