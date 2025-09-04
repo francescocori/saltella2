@@ -28,7 +28,7 @@ const ImageComponent = ({ imageSrc, altText }) => (
 const ContentBlock = ({ tagline, heading, description, description2 }) => (
   <div
     className={`pl-0 py-8 pr-8 lg:pl-0 lg:py-12 lg:pr-12 ${
-      description2 ? "md:pl-8 lg:pl-12 mt-[200px]" : ""
+      description2 ? "md:pl-8 lg:pl-12 " : ""
     } `}
   >
     <Tagline>{tagline}</Tagline>
@@ -105,7 +105,7 @@ const aboutData = {
         primaryButton: "Button",
         secondaryButton: "Button",
       },
-      imageSrc: "/Videos/Images/arancini4.png",
+      imageSrc: "/Videos/Images/arancini6.png",
       altText: "Catering services",
       imageLeft: true,
     },
