@@ -1,4 +1,3 @@
-"use client";
 import Image from "next/image";
 
 export default function Hero() {
@@ -79,20 +78,8 @@ export default function Hero() {
               Every dish blends authenticity, creativity, and care to make
               dining effortless and memorable.
             </p>
-
-            <button
-              onClick={() =>
-                window.open(
-                  "https://wa.me/393516959843?text=Hi%20Francesco,%20can%20you%20send%20me%20the%20current%20menu?",
-                  "_blank"
-                )
-              }
-              className="font-founders mt-4 btn bg-brand-goldDark border-brand-goldDark font-medium shadow-none"
-            >
-              Ask current menù
-            </button>
             <a
-              href="https://wa.me/351912345678?text=Hi%20Francesco,%20can%20you%20send%20me%20the%20current%20menu?"
+              href="https://wa.me/351920416301?text=Hi%20I%27d%20like%20to%20see%20the%20current%20menu."
               target="_blank"
               rel="noopener noreferrer"
               className="font-founders mt-4 btn bg-brand-goldDark border-brand-goldDark font-medium shadow-none"
