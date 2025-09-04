@@ -1,15 +1,29 @@
+import Image from "next/image";
+
 export default function Hero() {
   return (
     <div className="bg-base-100">
       {/* Full Screen Video Hero Section */}
       <div id="hero" className="relative w-full h-screen">
+        {/* Background Image (optimized) */}
+        <Image
+          src="/Videos/Images/hero.jpg"
+          alt="Chef Gabbo hero background"
+          fill
+          priority
+          quality={70}
+          sizes="100vw"
+          placeholder="blur"
+          blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQDw8PDw8PDw8QDQ0NDQ0NDQ8NDQ0NFREWFhURFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0OGxAQGy0fICUtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAAEAAQMBIgACEQEDEQH/xAAXAAADAQAAAAAAAAAAAAAAAAABAgME/8QAGxABAQACAwAAAAAAAAAAAAAAAQIAAxESITH/xAAXAQEBAQEAAAAAAAAAAAAAAAAQAgT/xAAXEQEBAQEAAAAAAAAAAAAAAAAAEQIC/9oADAMBAAIRAxEAPwD3YAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//2Q=="
+          className="object-cover object-center z-0"
+        />
         {/* Background Container */}
         <div
           className="relative w-full h-full overflow-hidden bg-cover bg-center bg-no-repeat"
-          style={{
-            backgroundImage: 'url("/Videos/Images/hero.jpg")',
-            // 'url("/Videos/Images/heroImageBg2.webp")',
-          }}
+          // Optional fallback background-image; keep commented to avoid double-loading
+          // style={{
+          //   backgroundImage: 'url("/Videos/Images/hero.jpg")',
+          // }}
         >
           {/* Black Gradient Overlay */}
           <div className="absolute z-10 inset-0 bg-gradient-to-b from-black/30 via-black/40 to-black/50"></div>
