@@ -65,19 +65,19 @@ export default function RootLayout({
         <link
           rel="preload"
           as="image"
+          href="/Videos/Images/arancini2.jpg"
+          type="image/jpep"
+        />
+        <link
+          rel="preload"
+          as="image"
           href="/Videos/Images/private.jpg"
           type="image/jpep"
         />
         <link
           rel="preload"
           as="image"
-          href="/Videos/Images/arancini6.jpg"
-          type="image/jpep"
-        />
-        <link
-          rel="preload"
-          as="image"
-          href="/Videos/Images/delivery3.jpg"
+          href="/Videos/Images/delivery2.jpg"
           type="image/jpep"
         />
         <link

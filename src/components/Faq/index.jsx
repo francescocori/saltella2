@@ -48,7 +48,7 @@ const FAQ_DATA = [
     id: 8,
     question: "What types of Sicilian dishes do you offer?",
     answer:
-      "I specialize in authentic Sicilian street food such as arancini, panelle, calzoni, and other traditional flavors prepared fresh for your event.",
+      "I specialize in authentic Sicilian street food such as , panelle, calzoni, and other traditional flavors prepared fresh for your event.",
   },
   {
     id: 9,
